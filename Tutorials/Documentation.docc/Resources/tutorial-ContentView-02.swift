@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Tutorials
-//
-//  Created by Maksym Kulyk on 30.06.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View
@@ -105,11 +98,5 @@ struct ContentView: View
             animated_text
             animated_shapes
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

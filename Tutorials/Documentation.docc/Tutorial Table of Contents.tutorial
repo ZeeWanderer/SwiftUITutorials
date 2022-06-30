@@ -1,0 +1,13 @@
+@Tutorials(name: "Animation") {
+    @Intro(title: "Animation") {
+        
+        
+        Animation
+    }
+    
+    @Chapter(name: "Animation") {
+        Animation
+        
+        @TutorialReference(tutorial: "doc:BasicAnimations")
+    }
+}
