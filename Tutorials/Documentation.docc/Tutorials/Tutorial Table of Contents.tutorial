@@ -2,7 +2,7 @@
     @Intro(title: "Animation") {
         
         
-        Animation
+        Animation tutorials.
     }
     
     @Chapter(name: "BasicAnimation") {
