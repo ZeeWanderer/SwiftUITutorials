@@ -5,7 +5,7 @@
         Animation
     }
     
-    @Chapter(name: "Animation") {
+    @Chapter(name: "BasicAnimation") {
         Animation
         
         @TutorialReference(tutorial: "doc:BasicAnimations")
