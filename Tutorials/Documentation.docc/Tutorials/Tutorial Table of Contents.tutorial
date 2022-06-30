@@ -1,13 +1,14 @@
-@Tutorials(name: "Animation") {
+@Tutorials(name: "SwiftUI Tutorials") {
     @Intro(title: "Animation") {
         
         
         Animation tutorials.
     }
     
-    @Chapter(name: "BasicAnimation") {
-        Animation
+    @Chapter(name: "Animation") {
+        SwiftUI animation tutorials.
         
-        @TutorialReference(tutorial: "doc:BasicAnimations")
+        @Image(source: "tutorial-structureanimations-ContentView-02-preview.png", alt: "Preview")
+        @TutorialReference(tutorial: "doc:StructureAnimations")
     }
 }

@@ -1,0 +1,45 @@
+@Tutorial(time: 20) {
+    @Intro(title: "SwiftUI Structure Change Animations and You") {
+        
+    }
+    
+    @Section(title: "Structure change animations") {
+        @ContentAndMedia {
+            In this section you will learn how to animate view structure changes.
+        }
+        
+        @Steps {
+            @Step {
+                Lets create a basic ContentView for SwiftUI application. 
+                
+                @Code(name: "ContentView.swift", file: "tutorial-structureanimations-ContentView-00.swift") {
+                    @Image(source: "tutorial-structureanimations-ContentView-00-preview.png", alt: "Preview")
+                }
+            }
+            @Step {
+                Lets add animation to "Hello World" text.
+                
+                @Code(name: "ContentView.swift", file: "tutorial-structureanimations-ContentView-01.swift") {
+                    @Image(source: "tutorial-structureanimations-ContentView-01-preview.png", alt: "Preview")
+                }
+            }
+            @Step {
+                Lets test it with a preview.
+                
+                @Video(source: "tutorial-structureanimations-ContentView-01-livepreview.mov", poster: "tutorial-structureanimations-ContentView-01-preview.png")
+            }
+            @Step {
+                But what if it is not the same view we need to animate a transition from?
+                
+                @Code(name: "ContentView.swift", file: "tutorial-structureanimations-ContentView-02.swift") {
+                    @Image(source: "tutorial-structureanimations-ContentView-02-preview.png", alt: "Preview")
+                }
+            }
+            @Step {
+                Lets test it with a preview.
+                
+                @Video(source: "tutorial-structureanimations-ContentView-02-livepreview.mov", poster: "tutorial-structureanimations-ContentView-02-preview.png")
+            }
+        }
+    }
+}
