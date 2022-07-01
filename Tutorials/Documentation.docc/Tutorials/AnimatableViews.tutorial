@@ -1,0 +1,34 @@
+@Tutorial(time: 20) {
+    @Intro(title: "Animatable conforming Views and You") {
+        
+    }
+    
+    @Section(title: "Animatable View") {
+        @ContentAndMedia {
+            In this section you will learn how to use Animatable views.
+        }
+        
+        @Steps {
+            @Step {
+                Lets create a basic ContentView for SwiftUI application. 
+                
+                @Code(name: "ContentView.swift", file: "tutorial-animatableviews-ContentView-00.swift") {
+                    @Image(source: "tutorial-animatableviews-ContentView-00-preview.png", alt: "Preview")
+                }
+            }
+            
+            @Step {
+                Lets create an Animatable conforming counter view.
+                
+                @Code(name: "ContentView.swift", file: "tutorial-animatableviews-ContentView-01.swift") {
+                    @Image(source: "tutorial-animatableviews-ContentView-01-preview.png", alt: "Preview")
+                }
+            }
+            @Step {
+                Lets test it with a preview.
+                
+                @Video(source: "tutorial-animatableviews-ContentView-01-livepreview.mov", poster: "tutorial-animatableviews-ContentView-01-preview.png")
+            }
+        }
+    }
+}

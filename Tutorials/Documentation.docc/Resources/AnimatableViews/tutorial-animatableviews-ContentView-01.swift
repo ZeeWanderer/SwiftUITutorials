@@ -1,12 +1,3 @@
-//
-//  ContentView.swift
-//  Tutorials
-//
-//  Created by Maksym Kulyk on 30.06.2022.
-//
-
-import SwiftUI
-
 struct IntCounter: Animatable, View
 {
     private static let min_count = 0
@@ -45,16 +36,10 @@ struct ContentView: View
                 .padding()
             IntCounter(ascending: animate)
                 .animation(.linear(duration: 5), value: animate)
-                
+            
         }
         .onTapGesture {
             animate.toggle()
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

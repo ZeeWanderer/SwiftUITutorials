@@ -10,5 +10,6 @@
         
         @Image(source: "tutorial-structureanimations-ContentView-02-preview.png", alt: "Preview")
         @TutorialReference(tutorial: "doc:StructureAnimations")
+        @TutorialReference(tutorial: "doc:AnimatableViews")
     }
 }

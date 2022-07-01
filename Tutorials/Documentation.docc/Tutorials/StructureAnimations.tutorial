@@ -3,9 +3,9 @@
         
     }
     
-    @Section(title: "Structure change animations") {
+    @Section(title: "Basic Structure change animations") {
         @ContentAndMedia {
-            In this section you will learn how to animate view structure changes.
+            In this section you will learn how to animate simple view structure changes.
         }
         
         @Steps {
