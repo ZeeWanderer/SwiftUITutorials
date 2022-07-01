@@ -6,21 +6,41 @@ struct IntCounter: Animatable, View
     let ascending: Bool
     var count: Int
     
-    init(ascending: Bool) {
+    init(ascending: Bool)
+    {
         self.ascending = ascending
         count = ascending ? IntCounter.max_count : IntCounter.min_count
     }
     
-    
     var animatableData: CGFloat
     {
-        get { return CGFloat(ascending ? IntCounter.max_count : IntCounter.min_count) }
+        get { CGFloat(ascending ? IntCounter.max_count : IntCounter.min_count) }
         set { count = Int(newValue) }
     }
     
     var body: some View
     {
         Text("\(count)")
+    }
+}
+
+struct ContentView: View
+{
+    @State var animate = false
+    
+    var body: some View
+    {
+        VStack
+        {
+            Text("Hello, world!")
+                .padding()
+            IntCounter(ascending: animate)
+                .animation(.linear(duration: 5), value: animate)
+            
+        }
+        .onTapGesture {
+            animate.toggle()
+        }
     }
 }
 

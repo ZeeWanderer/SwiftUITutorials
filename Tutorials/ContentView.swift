@@ -15,15 +15,15 @@ struct IntCounter: Animatable, View
     let ascending: Bool
     var count: Int
     
-    init(ascending: Bool) {
+    init(ascending: Bool)
+    {
         self.ascending = ascending
         count = ascending ? IntCounter.max_count : IntCounter.min_count
     }
     
-    
     var animatableData: CGFloat
     {
-        get { return CGFloat(ascending ? IntCounter.max_count : IntCounter.min_count) }
+        get { CGFloat(ascending ? IntCounter.max_count : IntCounter.min_count) }
         set { count = Int(newValue) }
     }
     
