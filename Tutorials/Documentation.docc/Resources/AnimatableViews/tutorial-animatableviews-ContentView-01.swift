@@ -43,23 +43,3 @@ struct ContentView: View
         }
     }
 }
-
-struct ContentView: View
-{
-    @State var animate = false
-    
-    var body: some View
-    {
-        VStack
-        {
-            Text("Hello, world!")
-                .padding()
-            IntCounter(ascending: animate)
-                .animation(.linear(duration: 5), value: animate)
-            
-        }
-        .onTapGesture {
-            animate.toggle()
-        }
-    }
-}
