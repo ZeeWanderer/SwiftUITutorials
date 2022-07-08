@@ -1,3 +1,5 @@
+import SwiftUI
+
 struct IntCounter: Animatable, View
 {
     private static let min_count = 0

@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Tutorials
-//
-//  Created by Maksym Kulyk on 30.06.2022.
-//
-
 import SwiftUI
 
 struct IntCounter: Animatable, View
@@ -93,11 +86,5 @@ struct ContentView: View
         .onTapGesture {
             animate.toggle()
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

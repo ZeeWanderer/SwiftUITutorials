@@ -29,6 +29,18 @@
                 
                 @Video(source: "tutorial-animatableviews-ContentView-01-livepreview.mov", poster: "tutorial-animatableviews-ContentView-01-preview.png")
             }
+            @Step {
+                But what about shapes? Lets add an Animatable conforming Shape.
+                
+                @Code(name: "ContentView.swift", file: "tutorial-animatableviews-ContentView-02.swift") {
+                    @Image(source: "tutorial-animatableviews-ContentView-02-preview.png", alt: "Preview")
+                }
+            }
+            @Step {
+                Lets test it with a preview.
+                
+                @Video(source: "tutorial-animatableviews-ContentView-02-livepreview.mov", poster: "tutorial-animatableviews-ContentView-02-preview.png")
+            }
         }
     }
 }
